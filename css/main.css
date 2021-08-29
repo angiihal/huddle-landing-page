@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    background-color: #674bb1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+header,
+main,
+.image-container img {
+    width: 79%;
+}
+
+header {
+    margin-top: 38px;
+}
+
+header .logo img {
+    width: 32%;
+}
+
+.image-container {
+    margin: 68px 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.text-container h1 {
+    margin: 0;
+}
+
+.text-container p {
+    margin: 25px 0;
+}
+
+.social-container {
+    margin: 60px 0 39px 0;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.social-container p {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+}
