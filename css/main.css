@@ -1,3 +1,5 @@
+/* Mobile Styles */
+
 body {
     width: 100%;
     background-color: #674bb1;
@@ -43,6 +45,11 @@ main {
     margin: 25px 0;
 }
 
+button {
+    padding: 15px 60px;
+    border-radius: 25px;
+}
+
 .social-container {
     margin: 60px 0 39px 0;
     width: 27%;
@@ -57,4 +64,33 @@ main {
 
 footer {
     width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1440px) {
+    header, main, .image-container img {
+        width: 85%;
+    }
+
+    header .logo img {
+        width: 20%;
+    }
+
+    main {
+        flex-flow: row nowrap;
+        position: relative;
+    }
+
+    .text-container {
+        width: 65%;
+    }
+
+    .social-container {
+        width: 10%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 }
