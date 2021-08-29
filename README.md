@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-using-html-and-css-uIMbwTqSi]
-- Live Site URL: [https://angiihal.github.io/huddle-landing-page/]
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-using-html-and-css-uIMbwTqSi
+- Live Site URL: https://angiihal.github.io/huddle-landing-page/
 
 ### Built with
 
