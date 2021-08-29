@@ -40,6 +40,10 @@ main {
     flex-flow: column wrap;
 }
 
+.text-container {
+    text-align: center;
+}
+
 .text-container h1 {
     font-family: "Poppins", sans-serif;
     line-height: 1.5em;
@@ -60,12 +64,21 @@ button {
     margin: 60px 0 39px 0;
     width: 27%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-flow: row nowrap;
 }
 
 .social-container p {
     margin: 0;
+}
+
+i {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 15px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
 }
 
 footer {
@@ -96,6 +109,7 @@ footer {
 
     .text-container {
         width: 65%;
+        text-align: left;
     }
 
     .social-container {
