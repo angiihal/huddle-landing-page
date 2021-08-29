@@ -72,9 +72,15 @@ i {
 }
 
 button {
+    border: none;
     border-radius: 25px;
     mix-blend-mode: screen;
     padding: 15px 60px;
+}
+
+button:hover {
+    background-color: #e980e7;
+    color: #fff;
 }
 
 .social-container {
@@ -96,6 +102,11 @@ i {
     height: auto;
     padding: 10px;
     margin: 5px;
+}
+
+i:hover {
+    border: 1px solid #e980e7;
+    color: #e980e7;
 }
 
 footer {
