@@ -42,6 +42,10 @@ main {
 
 .text-container {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text-container h1 {
@@ -55,9 +59,22 @@ main {
     line-height: 1.3em;
 }
 
-button {
-    padding: 15px 60px;
+button,
+i {
+    cursor: pointer;
+}
+
+.button-container {
+    box-shadow: 6px 4px 10px 2px hsl(0deg 0% 0% / 30%);
+    opacity: 0.1.;
+    width: 180px;
     border-radius: 25px;
+}
+
+button {
+    border-radius: 25px;
+    mix-blend-mode: screen;
+    padding: 15px 60px;
 }
 
 .social-container {
@@ -110,6 +127,7 @@ footer {
     .text-container {
         width: 65%;
         text-align: left;
+        align-items: flex-start;
     }
 
     .social-container {
